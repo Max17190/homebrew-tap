@@ -1,25 +1,25 @@
 class Openmax < Formula
   desc "Open Max: barebones high-performance agent harness TUI"
   homepage "https://github.com/Max17190/open-max"
-  version "2026.11.4"
+  version "2026.11.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Max17190/open-max/releases/download/v2026.11.4/openmax-aarch64-apple-darwin.tar.xz"
-      sha256 "2f1eab4604f5b4763edcfb904a50e2a34b980a460ff60f67785ffbf52a62124f"
+      url "https://github.com/Max17190/open-max/releases/download/v2026.11.5/openmax-aarch64-apple-darwin.tar.xz"
+      sha256 "3483e9891c0763f79c1cf504a579cbf665c9911e699ad35c3036cd125e63a9b4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Max17190/open-max/releases/download/v2026.11.4/openmax-x86_64-apple-darwin.tar.xz"
-      sha256 "8e2d4491b2646aa55b2d22c49b36556f7b76b25d3e38e84967f36de894441168"
+      url "https://github.com/Max17190/open-max/releases/download/v2026.11.5/openmax-x86_64-apple-darwin.tar.xz"
+      sha256 "1563aa3936d3fb53df0fcfc0c73aef5f83edfb53c985b2e26794c71c0bcfc6a6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Max17190/open-max/releases/download/v2026.11.4/openmax-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "555c6e3ddaaca0c0a29c7ceb62af080cc782aa8c239a7cc9c833b3c3d71a2bfc"
+      url "https://github.com/Max17190/open-max/releases/download/v2026.11.5/openmax-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "742de4bbed30118cf4b123a9f2b5f311d92486e72937804bc878b3ea021cee98"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Max17190/open-max/releases/download/v2026.11.4/openmax-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8b2405ca663e2cd2a10278179a2298821f937f8804abcfff82752eeb1b1bd446"
+      url "https://github.com/Max17190/open-max/releases/download/v2026.11.5/openmax-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d11ba1666d11cd2fc44bb32257e7e8420865a6b29df738440cfa2da1a167015b"
     end
   end
   license "MIT"
